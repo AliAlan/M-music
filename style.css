@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+.logo{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+.nav-links a{
+   margin-left: 2rem;
+   justify-content: center;
+   transition: 0.3s;
+}
+.nav-links a:hover{
+    color: #FF725E;
+}   
+.signup{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.signup .btn{
+    padding: 1rem 2rem;
+    background-color: #FF725E;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.signup .btn:hover{
+    border: 1px solid #FF725E;
+    background-color: transparent;
+    color: #FF725E;
+}
+
+.man{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle-big{
+    position: absolute;
+    right:0 ;
+    bottom: 0;
+}
+.circle-2{
+    position: absolute;
+    right: 0;
+    bottom: 35%;
+}
+.notes{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.headline{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.headline h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.text{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.cards{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 50%;
+    gap: 1rem;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 255px;
+    height: 295px;
+    background-color: #fff;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 58%;
+}
+.card-1 h3{
+    padding: 1rem 0;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 255px;
+    height: 295px;
+    background-color: #fff;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 58%;
+
+}
+.card-2 h3{
+    padding: 1rem 0;
+}
+.card-3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 255px;
+    height: 295px;
+    background-color: #fff;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    left: 60%;
+    top: 58%;
+
+}
+.card-3 h3{
+    padding: 1rem 0;
+}
